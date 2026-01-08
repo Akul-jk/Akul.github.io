@@ -1,0 +1,75 @@
+/* ===== Global Styles ===== */
+body {
+  background-color: #ffffff;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 20px;
+  color: #333;
+}
+
+
+.profile-pic {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-left: 20px;
+  object-fit: cover;
+  border: 3px solid #0077b5; 
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+.photo {
+  width: 300px;
+  height: auto;
+}
+.photo-gallery img {
+  width: 250px;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+
+/* ===== LinkedIn Icon ===== */
+.linkedin-icon img {
+  width: 32px;
+  height: 32px;
+  border-radius: 0;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.linkedin-icon img:hover {
+  transform: scale(1.1);
+}
+
+/* ===== Table Styling ===== */
+table {
+  font-family: Arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 20px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Table Headings & Cells */
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 12px;
+}
+
+/* Table Header */
+th {
+  background-color: #0077b5;
+  color: white;
+}
+
+/* Alternate Row Color */
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+/* Hover Effect */
+tr:hover {
+  background-color: #e6f2ff;
+}
+
